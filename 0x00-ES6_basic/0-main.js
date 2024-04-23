@@ -1,5 +1,4 @@
-import getSumOfHoods from './3-default-parameter.js';
+import taskBlock from './1-block-scoped.js';
 
-console.log(getSumOfHoods(34));
-console.log(getSumOfHoods(34, 3));
-console.log(getSumOfHoods(34, 3, 4));
+console.log(taskBlock(true));
+console.log(taskBlock(false));
