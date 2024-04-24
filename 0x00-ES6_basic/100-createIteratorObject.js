@@ -4,5 +4,5 @@ export default function createIteratorObject(report) {
     array.push(...emp);
   }
 
-  return array;
+  return array.join(' | ');
 }
